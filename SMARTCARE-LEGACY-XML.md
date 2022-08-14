@@ -38,7 +38,7 @@
 		</StorageItems>
 	</Storage>
 	<ReadableName>Known Positive On Art</ReadableName>
-	<ConceptImplementationIDString>known_positive_on_art</ConceptImplementationIDString>
+	<ConceptImplementationIDString>not_set</ConceptImplementationIDString>
 	<CustomDBLogicRequired>False</CustomDBLogicRequired>
 </field>
 
@@ -89,7 +89,7 @@
 		</StorageItems>
 	</Storage>
 	<ReadableName>Mode Of Delivery</ReadableName>
-	<ConceptImplementationIDString>mode_of_delivery</ConceptImplementationIDString>
+	<ConceptImplementationIDString>not_set</ConceptImplementationIDString>
 	<CustomDBLogicRequired>False</CustomDBLogicRequired>
 	</field>
 ```
@@ -130,7 +130,7 @@
 		</StorageItems>
 	</Storage>
 	<ReadableName>Fatigue</ReadableName>
-	<ConceptImplementationIDString>fatigue</ConceptImplementationIDString>
+	<ConceptImplementationIDString>not_set</ConceptImplementationIDString>
 	<CustomDBLogicRequired>False</CustomDBLogicRequired>
 </field>
 ```
@@ -161,7 +161,7 @@
 		</StorageItems>
 	</Storage>
 	<ReadableName>Viral Load Within Four Weeks</ReadableName>
-	<ConceptImplementationIDString>viral_load_within_four_weeks</ConceptImplementationIDString>
+	<ConceptImplementationIDString>not_set</ConceptImplementationIDString>
 	<CustomDBLogicRequired>False</CustomDBLogicRequired>
 </field>
 ```
