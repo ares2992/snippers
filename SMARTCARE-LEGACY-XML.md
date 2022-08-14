@@ -168,81 +168,41 @@
 ## Checkbox Group
 ```xml
  <field name="Referrals">
-            <ValidationData>
-              <ValidationType>EnumerationArray</ValidationType>
-              <ProgrammaticType>EnumerationArray</ProgrammaticType>
-              <Enumerated AllowOther="No">Yes</Enumerated>
-              <IsNullable>Yes</IsNullable>
-              <DatabaseDrivenValidation>False</DatabaseDrivenValidation>
-              <min />
-              <max />
-              <warnMin />
-              <warnMax />
-              <critMin />
-              <critMax />
-            </ValidationData>
-            <ControlName>gbxReferrals</ControlName>
-            <ControlType>CheckGroupBox</ControlType>
-            <EnumerationType>
-              <item index="0">
-                <DisplayName>Consented to HBC</DisplayName>
-                <ItemControlName>cbxConsentedToHBC</ItemControlName>
-              </item>
-              <item index="1">
-                <DisplayName>Adherence counseling</DisplayName>
-                <ItemControlName>cbxAdherenceCounseling</ItemControlName>
-              </item>
-              <item index="2">
-                <DisplayName>Community health worker</DisplayName>
-                <ItemControlName>cbxCommunityHealthWorker</ItemControlName>
-              </item>
-              <item index="3">
-                <DisplayName>Family planning</DisplayName>
-                <ItemControlName>cbxFamilyPlanning</ItemControlName>
-              </item>
-              <item index="4">
-                <DisplayName>None</DisplayName>
-                <ItemControlName>cbxNone</ItemControlName>
-              </item>
-              <item index="5">
-                <DisplayName>Other</DisplayName>
-                <ItemControlName>cbxOther</ItemControlName>
-              </item>
-              <item index="6">
-                <DisplayName>Psychosocial support</DisplayName>
-                <ItemControlName>cbxPsychosocialSupport</ItemControlName>
-              </item>
-              <item index="7">
-                <DisplayName>Treatment preparation</DisplayName>
-                <ItemControlName>cbxTreatmentPreparation</ItemControlName>
-              </item>
-              <item index="8">
-                <DisplayName>Inpatient care:</DisplayName>
-                <ItemControlName>cbxInpatientCare</ItemControlName>
-              </item>
-              <item index="9">
-                <DisplayName>Inpatient care (this facility)</DisplayName>
-                <ItemControlName>cbxInpatientCareThisFacility</ItemControlName>
-              </item>
-              <item index="10">
-                <DisplayName>Nutritional support</DisplayName>
-                <ItemControlName>cbxNutritionalSupport</ItemControlName>
-              </item>
-              <item index="11">
-                <DisplayName>TB Treatment/DOT Program</DisplayName>
-                <ItemControlName>cbxTbTreatmentDotProgram</ItemControlName>
-              </item>
-            </EnumerationType>
-            <Storage StorageCall="ClinicalObs">
-              <StorageItems>
-                <StorageItemType name="Obs">Referral</StorageItemType>
-                <StorageItemType name="ObsCode">3457005</StorageItemType>
-                <StorageItemType name="ObsTypeCode" />
-              </StorageItems>
-            </Storage>
-            <ReadableName>Referrals</ReadableName>
-            <ConceptImplementationIDString>not_set</ConceptImplementationIDString>
-            <CustomDBLogicRequired>False</CustomDBLogicRequired>
+	<ValidationData>
+		<ValidationType>EnumerationArray</ValidationType>
+		<ProgrammaticType>EnumerationArray</ProgrammaticType>
+		<Enumerated AllowOther="No">Yes</Enumerated>
+		<IsNullable>Yes</IsNullable>
+		<DatabaseDrivenValidation>False</DatabaseDrivenValidation>
+		<min />
+		<max />
+		<warnMin />
+		<warnMax />
+		<critMin />
+		<critMax />
+	</ValidationData>
+	<ControlName>gbxReferrals</ControlName>
+	<ControlType>CheckGroupBox</ControlType>
+	<EnumerationType>
+		<item index="0">
+		<DisplayName>Consented to HBC</DisplayName>
+		<ItemControlName>cbxConsentedToHBC</ItemControlName>
+		</item>
+		<item index="1">
+		<DisplayName>Adherence counseling</DisplayName>
+		<ItemControlName>cbxAdherenceCounseling</ItemControlName>
+		</item>
+	</EnumerationType>
+	<Storage StorageCall="ClinicalObs">
+		<StorageItems>
+		<StorageItemType name="Obs" />
+		<StorageItemType name="ObsCode" />
+		<StorageItemType name="ObsTypeCode" />
+		</StorageItems>
+	</Storage>
+	<ReadableName>Referrals</ReadableName>
+	<ConceptImplementationIDString>not_set</ConceptImplementationIDString>
+	<CustomDBLogicRequired>False</CustomDBLogicRequired>
     </field>
 ```
 
